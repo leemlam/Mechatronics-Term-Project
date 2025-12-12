@@ -17,8 +17,8 @@ sys.path.insert(0, os.path.abspath("../Final Term Project/on_board"))
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'ME 405 Final Project'
-copyright = '2025, Katherine Meezan, Michael Habib, Zachery Boyer'
-author = 'Katherine Meezan, Michael Habib, Zachery Boyer'
+copyright = '2025, Liam Walsh, Bradley Kern'
+author = 'Liam Walsh, Bradley Kern'
 release = '1'
 
 # -- General configuration ---------------------------------------------------
@@ -44,3 +44,4 @@ autodoc_mock_imports = ["pyb", "time"]
 
 html_theme = "sphinx_rtd_theme"
 html_static_path = ['_static']
+

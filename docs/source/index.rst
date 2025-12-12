@@ -1,5 +1,8 @@
-Welcome to Lumache's documentation!
+Mechatronics Term Project Documentation
 ===================================
+
+This project was a culmination of many sub-projects designed over the course of one quarter.
+From :doc:`PID-motor-control` to ___
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
 that creates recipes mixing random ingredients.
@@ -18,5 +21,9 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   background
+   PID motor control
+   line sensing
+   state estimation
+   waypoint seeking
+   results

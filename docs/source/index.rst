@@ -22,8 +22,8 @@ Contents
 .. toctree::
 
    background
-   PID motor control
-   line sensing
-   state estimation
-   waypoint seeking
+   PID motor control <PID>
+   line-sensing
+   state-estimation
+   waypoint-seeking
    results

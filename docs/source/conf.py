@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Mechatronics Term Project'
-copyright = '2025, Walsh'
+copyright = '2025, Walsh, Kern'
 author = 'Liam Walsh'
 
 release = '0.1'

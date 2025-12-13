@@ -1,5 +1,5 @@
-Usage
-=====
+PID Control Structure
+=====================
 
 .. _installation:
 

@@ -1,6 +1,11 @@
 Project Background
 ==================
 
+.. image:: buddies.jpg
+
+
+
+
 Template stuff
 --------------
 

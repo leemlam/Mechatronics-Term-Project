@@ -1,7 +1,4 @@
-API
-===
+Project Background
+==================
 
-.. autosummary::
-   :toctree: generated
 
-   lumache

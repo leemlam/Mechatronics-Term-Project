@@ -1,5 +1,7 @@
-PID Control Structure
+PID Control
 =====================
+
+
 
 .. _installation:
 

@@ -4,6 +4,7 @@ Waypoint Seeking
 .. image:: waypoints.png
 
 Waypoints are shown below::
+
     self.waypoints = [[750,800,200,0,2.5],      # End of start line
                     [950,600,0,-200,2],             # "Line following" complete
                     [950,425,100,-200,1],           # CP1

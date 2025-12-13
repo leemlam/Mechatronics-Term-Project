@@ -44,7 +44,7 @@ You can also do tables like latex. Use this for reference
 you can also make tables from CSVs so might want to use that
 
 I can reference other pages with :doc:`PID` and sub-sections with :ref:`installation`.
-Links to other sites can be done `like this <https://www.reddit.com/r/FSAE/comments/du3a18/legends_never_die/>`
+Links to other sites can be done `like this <https://www.reddit.com/r/FSAE/comments/du3a18/legends_never_die/>`__
 Hopefully I understand this well enough..
 
 

@@ -12,14 +12,14 @@ This implementation and design method allows our robot to follow any path, with 
 specified with position, speed, and targeted times. This makes our system easily adaptable
 given target states on a path.
 
-
-
+.. image:: buddies.jpg
 
 
 Contents
 --------
 
 .. toctree::
+   :maxdepth: 1
 
    background
    PID

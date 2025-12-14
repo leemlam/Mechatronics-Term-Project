@@ -55,54 +55,23 @@ Method to implement PID::
          
          return output
 
-    
-    def change_setpoint(self, setpoint):
-        self.setpoint = setpoint
-        return
-    
-    def performance(self):
-        return (self.error, self.integral, self.derivative)
-    
-    def update_params(self, kP: float, kI: float, kD: float, kFF=0):
-        self.kP=kP/INV_SCALAR
-        self.kI=kI/INV_SCALAR/1000
-        self.kD=kD/INV_SCALAR/1000
-        self.kFF=kFF/INV_SCALAR
+Maintenance and data collection methods::
+         
+      def change_setpoint(self, setpoint):
+         self.setpoint = setpoint
+         return
+      
+      def performance(self):
+         return (self.error, self.integral, self.derivative)
+      
+      def update_params(self, kP: float, kI: float, kD: float, kFF=0):
+         self.kP=kP/INV_SCALAR
+         self.kI=kI/INV_SCALAR/1000
+         self.kD=kD/INV_SCALAR/1000
+         self.kFF=kFF/INV_SCALAR
 
-    def reset_errors(self):
-        self.error=0
-        self.prev_error=0
-        self.integral=0
-        self.derivative=0
-
-.. _installation:
-
-Installation
-------------
-
-To use Lumache, first install it using pip:
-
-.. code-block:: console
-
-   (.venv) $ pip install lumache
-
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+      def reset_errors(self):
+         self.error=0
+         self.prev_error=0
+         self.integral=0
+         self.derivative=0

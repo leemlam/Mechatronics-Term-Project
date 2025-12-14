@@ -1,7 +1,7 @@
 State Estimation
 ================
 
-Constants and Initialization
+Constants and Constants
 ----------------------------
 
 Imports::
@@ -21,7 +21,10 @@ IMU Register Constants and Romi Kinematics Constants::
     tw = 141 # Romi track width (mm)
     rtire = 35 # Romi tire radius (mm)
 
-State Estimation Matrices::
+State Estimation Matrices
+--------------------------
+
+The state estimation algorithm fuses output from several sensors to ::
 
     Ad = np.array([[0.41386457,0.41386441,-0.345536,0.000000],
                    [0.41386457,0.41386441,-0.345531,0.000000],

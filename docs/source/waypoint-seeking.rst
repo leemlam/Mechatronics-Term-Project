@@ -2,7 +2,7 @@ Waypoint Seeking
 ================
 
 .. image:: waypoints.png
-
+ 
 
 Initialization of the waypoint class is shown below::
 

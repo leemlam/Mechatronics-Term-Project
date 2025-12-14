@@ -1,4 +1,4 @@
-Line Sensing Task
+Line Sensing
 =================
 
 Overview

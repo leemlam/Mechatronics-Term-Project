@@ -1,7 +1,10 @@
 Project Background
 ==================
 
-.. image:: buddies.jpg
+
+
+
+.. image:: course.jpg
 
 
 

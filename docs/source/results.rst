@@ -5,7 +5,7 @@ What Worked
 -----------
 
 Overall, our robot was very successful in pathing toward waypoints, recalculating paths if it was 
-unable to reach them in time. We were able to achieve successful runs 
+unable to reach them in time.
 
 Our robot was able to complete the course in an average of _ seconds, making it the second fastest overall.
 We were also able to push both cups out of their circles, scoring a point bonus.

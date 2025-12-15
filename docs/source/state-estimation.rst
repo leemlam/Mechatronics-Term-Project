@@ -24,7 +24,7 @@ IMU Register Constants and Romi Kinematics Constants::
 State Estimation Matrices
 --------------------------
 
-The state estimation algorithm fuses output from several sensors to estimate Romi's position while making up for each sensors weaknesses. The Ad matrix weights the effects of the current state on the next state and the Bd matrix weights the effects of the systems inputs on the next state.
+The state estimation algorithm fuses output from the :doc:`IMU` compass and gyroscope and :doc:Encoder to estimate Romi's position while making up for each sensors weaknesses. The Ad matrix weights the effects of the current state on the next state and the Bd matrix weights the effects of the systems inputs on the next state.
 After using a MATLAB script with pole placement to determine the continuous and discrete matrices before manually tuning the matrix values to match the state estimated wheel velocities to the encoder wheel velocities in a variety of strucutred test cases (forward and reverse at low and high speeds and turning at low and high speeds). ::
 
     Ad = np.array([[0.41386457,0.41386441,-0.345536,0.000000],

@@ -23,6 +23,10 @@ Contents
 
    background
    PID
+   IMU
+   motor
+   main
+   encoder
    communication
    line-sensing
    state-estimation

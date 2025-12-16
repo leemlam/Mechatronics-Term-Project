@@ -1,7 +1,12 @@
 Communication Protocol
 ======================
 
-The communication task handles bluetooth communication bewteen Romi and the user, allowing the user to command Romi, adjust parameters, and receive batched data sets. The task runs at a higher frequency and lower priority than many of the other tasks to allow as much comminication as possible without interfering with other funcitonality. The frequency is limited by the bluetooth throughput speed, ecxeeding the current frequency can lead to missing information.
+The communication task handles bluetooth communication bewteen Romi and the user, allowing the user to 
+command Romi, adjust parameters, and receive batched data sets. The task runs at a higher frequency and 
+lower priority than many of the other tasks to allow as much comminication as possible without interfering 
+with other funcitonality. The frequency is limited by the bluetooth throughput speed, ecxeeding the current 
+frequency can lead to missing information.
+
 Imports and Init::
 
     from pyb import UART, Pin
@@ -26,8 +31,12 @@ Imports and Init::
 Multicharacter User Interface with Numerical Arguments
 ------------------------------------------------------
 
-Generator Function Sate 0, handles waiting for input and parsing multicharacter inputs from the user. The user enters a short command, optionally followed by a colon and a positive or negative integer, that gets interpreted as an argument.
-The bluetooth serial buffer is read into an individual new character, echoed to the user, and appended to a running bytearray buffer. Once the buffer reaches a set length or contains an enter, the buffer is split into a string instruction and integer argument. There is no support for backspace so any unintentional inputs should be followed by random characters to allow the buffer to reset.::
+Generator Function State 0, handles waiting for input and parsing multicharacter inputs from the user.
+The user enters a short command, optionally followed by a colon and a positive or negative integer that gets interpreted as an argument.
+The bluetooth serial buffer is read into an individual new character, echoed to the user, 
+and appended to a running bytearray buffer. Once the buffer reaches a set length or contains an enter, 
+the buffer is split into a string instruction and integer argument. There is no support for backspace 
+so any unintentional inputs should be followed by random characters to allow the buffer to reset. ::
 
         def run(self, shares):
             while True:
@@ -73,11 +82,18 @@ State 1 handles sending batched data back to the user. It checks that the queues
 
 Instruction Interpretation
 --------------------------
-State 2 interprets the user's instruction and sets relevant flags to facilitate inter-task communication. Often the default argument is zero but it can be specified by the user allowing very easy PID tuning without flashing new code, which would require our team to wipe and reinstall firmware every time. 
-This section includes commands to enable and disable motors, specify setpoints for forward velocity and yaw rate, specify  :doc:`PID` constants for the :doc:`motor` PIDs and :doc:`line-sensing` PID, send data to the user, calibrate sensors, enabling and disabling line following, and run planned routines. In particular, the arguments for "calimu" all perform different fuctions in the :doc:`state-estimation` task inlcuding changing the IMU mode, setting the heading offsets, toggling diagnostic output, and resetting the estimated state. 
-To start the term project course, Romi must be placed in the starting profile and aligned with the X axis. The user then enters "calimu:7" to reset the heading and set the estimated X and Y coordinates to 100,800 and "r" to make Romi start the course. Once Romi completes the course or if it must be stopped early, the user sends "s" or "c" to disable the motors.
+State 2 interprets the user's instruction and sets relevant flags to facilitate inter-task communication. 
+Often the default argument is zero but it can be specified by the user allowing very easy PID tuning without 
+flashing new code, which would require our team to wipe and reinstall firmware every time. 
+This section includes commands to enable and disable motors, specify setpoints for forward velocity and 
+yaw rate, specify  :doc:`PID` constants for the :doc:`motor` PIDs and :doc:`line-sensing` PID, send data 
+to the user, calibrate sensors, enabling and disabling line following, and run planned routines. In particular, the arguments for "calimu" all perform different fuctions in the :doc:`state-estimation` task inlcuding changing the IMU mode, setting the heading offsets, toggling diagnostic output, and resetting the estimated state. 
+To start the term project course, Romi must be placed in the starting profile and aligned with the X axis. 
+The user then enters "calimu:7" to reset the heading and set the estimated X and Y coordinates to 100,800 
+and "r" to make Romi start the course. Once Romi completes the course or if it must be stopped early, 
+the user sends "s" or "c" to disable the motors. ::
 
-                elif self.state == 2:#----------------State 2--------------------
+                elif self.state == 2: #----------------State 2--------------------
                     if self.instruction == "":
                         self.state=S0_WAIT
                     else:

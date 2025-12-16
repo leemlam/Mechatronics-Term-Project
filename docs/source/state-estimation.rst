@@ -43,7 +43,8 @@ After using a MATLAB script with pole placement to determine the continuous and 
 Observer Class Init and Methods
 --------------------------------
 
-Our Romi was unable to write files to local storage so we disabled the IMU calibration saving functionality. We manually copied the calibration constants into a file that Romi does read every initialization.::
+Our Romi was unable to write files to local storage so we disabled the IMU calibration saving functionality. 
+We manually copied the calibration constants into a file that Romi does read every initialization. ::
 
     class Observer:
         def __init__(self, shares, period, encoder_left, encoder_right):
@@ -89,7 +90,7 @@ Our Romi was unable to write files to local storage so we disabled the IMU calib
 Generator Function
 ------------------
 
-Encoder and IMU updates and interpreting user commands.::
+Encoder and IMU updates and interpreting user commands. ::
     def run(self, shares):
         while True:
             now=ticks_us()

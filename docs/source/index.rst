@@ -20,8 +20,7 @@ Contents
 
 .. toctree::
    :maxdepth: 1
-
-   background
+   
    PID
    IMU
    motor

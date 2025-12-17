@@ -14,7 +14,7 @@ given target states on a path.
 
 .. image:: buddies.jpg
 
-The repository for this project's code is found `here <https://github.com/leemlam/Mechatronics-Term-Project>`
+The repository for this project's code is found `here <https://github.com/leemlam/Mechatronics-Term-Project>`__
 
 Contents
 --------

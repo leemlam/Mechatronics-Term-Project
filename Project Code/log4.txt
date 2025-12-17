@@ -1,0 +1,586 @@
+
+   Ax=|Omega_L=-0.002185663|   Bu=|Omega_L=-0.0183381|
+      |Omega_R=-0.002185663|      |Omega_R=0.0130554|
+      |      s=-2.162485e-06|      |      s=-1.914198e-06|
+      |    Psi=-0.001044253|      |    Psi=6.725445e-05|
+
+ENCODER  - Left Vel: 0.0, Right Vel: 0.0
+OBSERVER - Left Vel: -0.6418335, Right Vel: 0.456939, Vel: -0.09244725
+
+X dot: -0.0924472, Y dot: 0.0001027558
+X pos: 99.375, Y pos: 799.9973
+left effort: -0.01055425, right effort: 0.0
+
+VBat: 2.651138, self.Kbat: 3.621086
+Read buffer length: 1 containing: r
+   Ax=|Omega_L=-0.002179516|   Bu=|Omega_L=-0.0183305|
+      |Omega_R=-0.002179517|      |Omega_R=0.01306266|
+      |      s=-2.156208e-06|      |      s=-1.908619e-06|
+      |    Psi=-0.001044253|      |    Psi=6.725445e-05|
+
+ENCODER  - Left Vel: 0.0, Right Vel: 0.0
+OBSERVER - Left Vel: -0.6415675, Right Vel: 0.4571929, Vel: -0.09218725
+
+X dot: -0.0921872, Y dot: 0.0001024668
+X pos: 99.29719, Y pos: 799.9973
+left effort: -0.01052457, right effort: 0.0
+
+VBat: 2.681351, self.Kbat: 3.580285
+   Ax=|Omega_L=-0.002181953|   Bu=|Omega_L=-0.004931808|
+      |Omega_R=-0.002181953|      |Omega_R=-0.0003419788|
+      |      s=-2.218344e-06|      |      s=-1.970476e-06|
+      |    Psi=-0.0011019|      |    Psi=9.607779e-06|
+
+ENCODER  - Left Vel: 0.0, Right Vel: 0.0
+OBSERVER - Left Vel: -0.1726133, Right Vel: -0.01196926, Vel: -0.09229127
+
+X dot: -0.09229122, Y dot: 0.0001025824
+X pos: 99.21938, Y pos: 799.9973
+left effort: -0.01053444, right effort: 0.0
+
+Read buffer length: 2 containing: r
+Read user instruction: r and argument: 0
+==============================================================
+=========================STARTED==============================
+==============================================================
+V req: 0 - (0, 0), Omega Req: 0
+Current heading: 0.0, Desired heading: 0, t:0.01764679, t0:103.5177
+VBat: 2.759399, self.Kbat: 3.479018
+   Ax=|Omega_L=-7.998531|   Bu=|Omega_L=6.035703|
+      |Omega_R=-7.998374|      |Omega_R=6.465115|
+      |      s=31.37927|      |      s=15.69151|
+      |    Psi=-0.01543781|      |    Psi=-0.0009929805|
+
+ENCODER  - Left Vel: 110.1904, Right Vel: 110.1926
+OBSERVER - Left Vel: 112.7418, Right Vel: 127.774, Vel: 120.2579
+
+X dot: 120.2453, Y dot: -1.737044
+X pos: 118.7628, Y pos: 799.7818
+left effort: 1.437807, right effort: 1.878801
+
+V req: 191 - (191.591, 0.001058259), Omega Req: 0.1000595
+Current heading: 6.273185, Desired heading: 5.523531e-06, t:0.5007477, t0:103.5177
+Read buffer length: 1 containing: s
+V req: 315 - (315.908, 0.01655042), Omega Req: 0.06719112
+Current heading: 6.276519, Desired heading: 5.239e-05, t:1.000481, t0:103.5177
+VBat: 2.603302, self.Kbat: 3.687624
+Centroid: -0.186468, Angle: -0.002486235, Average: 0.9224545
+Omega req: 0.0003729361
+   Ax=|Omega_L=-140.0362|   Bu=|Omega_L=75.62763|
+      |Omega_R=-140.034|      |Omega_R=75.5814|
+      |      s=427.5102|      |      s=213.7807|
+      |    Psi=0.002982599|      |    Psi=0.0007605377|
+
+ENCODER  - Left Vel: 318.3342, Right Vel: 318.3342
+OBSERVER - Left Vel: 325.6894, Right Vel: 324.1086, Vel: 324.899
+
+X dot: 324.8982, Y dot: 0.7219449
+X pos: 322.2094, Y pos: 799.0496
+left effort: 3.324532, right effort: 3.686494
+
+V req: 382 - (382.8492, 0.8660402), Omega Req: 0.02262088
+Current heading: 0.0, Desired heading: 0.002262088, t:1.500931, t0:103.5177
+V req: 376 - (376.6998, 1.399311), Omega Req: -0.1072971
+Current heading: 0.01444435, Desired heading: 0.003714641, t:2.000275, t0:103.5177
+VBat: 2.721634, self.Kbat: 3.527293
+Centroid: -6.036571, Angle: -0.08031446, Average: 0.9263545
+Omega req: 0.01207314
+   Ax=|Omega_L=-359.3026|   Bu=|Omega_L=185.7825|
+      |Omega_R=-359.2972|      |Omega_R=186.0377|
+      |      s=1065.327|      |      s=532.7278|
+      |    Psi=0.02748877|      |    Psi=0.001933633|
+
+ENCODER  - Left Vel: 373.4305, Right Vel: 367.3087
+OBSERVER - Left Vel: 367.8461, Right Vel: 376.8716, Vel: 372.3589
+
+X dot: 372.2373, Y dot: 9.514645
+X pos: 636.6611, Y pos: 800.5385
+left effort: 3.592936, right effort: 3.919662
+
+------------Reached waypoint: 0 ------------
+V req: 260 - (260.8635, -1.958649), Omega Req: -0.0528574
+Current heading: 6.280963, Desired heading: -0.007508186, t:0, t0:105.8232
+V req: 200 - (193.7364, -50.73138), Omega Req: -0.8277368
+Current heading: 6.109852, Desired heading: -0.2561074, t:0.4954453, t0:105.8232
+   Ax=|Omega_L=-514.118|   Bu=|Omega_L=261.9873|
+      |Omega_R=-514.1105|      |Omega_R=259.0802|
+      |      s=1502.17|      |      s=751.1757|
+      |    Psi=-0.3507903|      |    Psi=-0.05301219|
+
+ENCODER  - Left Vel: 250.9943, Right Vel: 165.2889
+OBSERVER - Left Vel: 259.5093, Right Vel: 157.8899, Vel: 208.6996
+
+X dot: 199.5148, Y dot: -61.23179
+X pos: 865.0815, Y pos: 784.4324
+left effort: 2.227074, right effort: 1.932023
+
+VBat: 2.527771, self.Kbat: 3.797812
+Centroid: 4.81777, Angle: 0.0641488, Average: 0.6675001
+Omega req: -0.009635542
+V req: 141 - (96.90358, -102.4545), Omega Req: -2.622714
+Current heading: 5.732222, Desired heading: -0.8132349, t:0.9953232, t0:105.8232
+   Ax=|Omega_L=-611.4229|   Bu=|Omega_L=312.334|
+      |Omega_R=-611.4139|      |Omega_R=304.3702|
+      |      s=1779.674|      |      s=889.9448|
+      |    Psi=4.56351|      |    Psi=-0.264268|
+
+ENCODER  - Left Vel: 281.5977, Right Vel: 0.0
+OBSERVER - Left Vel: 288.0653, Right Vel: 9.491272, Vel: 148.7783
+
+X dot: 17.12929, Y dot: -147.7889
+X pos: 958.6417, Y pos: 697.0714
+left effort: 3.280619, right effort: 0.4012796
+
+V req: 167 - (-2.145691, -167.7913), Omega Req: -0.4595327
+Current heading: 4.745555, Desired heading: -1.583583, t:1.497185, t0:105.8232
+VBat: 2.540359, self.Kbat: 3.778993
+Centroid: 2.876664, Angle: 0.03833673, Average: 0.6930045
+Omega req: -0.005753329
+------------Reached waypoint: 1 ------------
+V req: 185 - (-27.12903, -184.0044), Omega Req: 0.4822969
+Current heading: 4.517777, Desired heading: -1.717179, t:0, t0:107.6233
+   Ax=|Omega_L=-717.2455|   Bu=|Omega_L=361.033|
+      |Omega_R=-717.235|      |Omega_R=364.1763|
+      |      s=2091.772|      |      s=1046.012|
+      |    Psi=4.299083|      |    Psi=-0.2798063|
+
+ENCODER  - Left Vel: 180.5898, Right Vel: 278.5424
+OBSERVER - Left Vel: 179.0193, Right Vel: 289.22, Vel: 234.1196
+
+X dot: -31.16224, Y dot: -232.0365
+X pos: 932.6376, Y pos: 539.8685
+left effort: 1.932532, right effort: 3.104563
+
+V req: 238 - (-18.86829, -237.8803), Omega Req: 0.8323669
+Current heading: 4.55, Desired heading: -1.649949, t:0.5341034, t0:107.6233
+------------Reached waypoint: 2 ------------
+V req: 226 - (60.47086, -218.1547), Omega Req: 1.894593
+Current heading: 4.793333, Desired heading: -1.300393, t:0, t0:108.4742
+VBat: 2.746811, self.Kbat: 3.494962
+   Ax=|Omega_L=-865.4411|   Bu=|Omega_L=434.6211|
+      |Omega_R=-865.4285|      |Omega_R=441.0347|
+      |      s=2525.403|      |      s=1262.854|
+      |    Psi=-0.2140413|      |    Psi=-0.01070787|
+
+ENCODER  - Left Vel: 177.5325, Right Vel: 422.405
+OBSERVER - Left Vel: 191.0901, Right Vel: 415.7874, Vel: 303.4387
+
+X dot: 297.1876, Y dot: -61.27494
+X pos: 1030.51, Y pos: 375.4514
+left effort: 1.346398, right effort: 4.952466
+
+V req: 282 - (281.1189, -25.52362), Omega Req: 1.794553
+Current heading: 6.013186, Desired heading: -0.09054472, t:0.5237198, t0:108.4742
+------------Reached waypoint: 3 ------------
+V req: 305 - (293.9558, 81.99829), Omega Req: 4.031439
+Current heading: 6.152074, Desired heading: 0.2720326, t:0, t0:109.0738
+VBat: 2.55043, self.Kbat: 3.764071
+V req: 283 - (151.2809, 239.4406), Omega Req: 2.184261
+Current heading: 0.7888889, Desired heading: 1.007315, t:0.4945526, t0:109.0738
+   Ax=|Omega_L=-1030.336|   Bu=|Omega_L=520.606|
+      |Omega_R=-1030.321|      |Omega_R=519.824|
+      |      s=3002.656|      |      s=1501.509|
+      |    Psi=1.411936|      |    Psi=0.190825|
+
+ENCODER  - Left Vel: 312.2124, Right Vel: 293.847
+OBSERVER - Left Vel: 317.5507, Right Vel: 290.444, Vel: 303.9973
+
+X dot: 104.1502, Y dot: 285.5996
+X pos: 1207.42, Y pos: 503.467
+left effort: 3.23444, right effort: 2.839
+
+V req: 332 - (95.9193, 318.8229), Omega Req: 0.6966722
+Current heading: 1.208889, Desired heading: 1.278556, t:0.9967499, t0:109.0738
+VBat: 2.555466, self.Kbat: 3.756654
+V req: 281 - (143.1974, 242.3885), Omega Req: -0.9281302
+Current heading: 1.13, Desired heading: 1.037187, t:1.494415, t0:109.0738
+   Ax=|Omega_L=-1204.186|   Bu=|Omega_L=608.8168|
+      |Omega_R=-1204.168|      |Omega_R=605.3571|
+      |      s=3505.47|      |      s=1752.947|
+      |    Psi=1.20857|      |    Psi=0.1641263|
+
+ENCODER  - Left Vel: 348.9433, Right Vel: 244.8725
+OBSERVER - Left Vel: 359.7711, Right Vel: 238.9886, Vel: 299.3799
+
+X dot: 150.4033, Y dot: 258.8575
+X pos: 1295.659, Y pos: 752.5322
+left effort: 3.659166, right effort: 2.466044
+
+------------Reached waypoint: 4 ------------
+V req: 282 - (276.9063, 56.52467), Omega Req: -2.230814
+Current heading: 0.4244442, Desired heading: 0.2013628, t:0, t0:110.9729
+   Ax=|Omega_L=-1356.657|   Bu=|Omega_L=688.467|
+      |Omega_R=-1356.637|      |Omega_R=675.4808|
+      |      s=3941.395|      |      s=1970.936|
+      |    Psi=5.459369|      |    Psi=-0.1472975|
+
+ENCODER  - Left Vel: 440.7528, Right Vel: 0.0
+OBSERVER - Left Vel: 448.5101, Right Vel: -5.661011, Vel: 221.4246
+
+X dot: 172.6573, Y dot: -138.63
+X pos: 1480.883, Y pos: 786.1774
+left effort: 5.171816, right effort: -0.714485
+
+V req: 227 - (145.695, -174.4719), Omega Req: -4.507413
+Current heading: 5.858889, Desired heading: -0.8750381, t:0.5473022, t0:110.9729
+VBat: 2.444687, self.Kbat: 3.926884
+V req: 317 - (24.50546, -316.1222), Omega Req: -0.9246873
+Current heading: 4.882222, Desired heading: -1.493432, t:0.9952927, t0:110.9729
+   Ax=|Omega_L=-1517.789|   Bu=|Omega_L=764.35|
+      |Omega_R=-1517.766|      |Omega_R=765.1448|
+      |      s=4416.506|      |      s=2208.52|
+      |    Psi=4.485679|      |    Psi=-0.2543206|
+
+ENCODER  - Left Vel: 333.6387, Right Vel: 358.126
+OBSERVER - Left Vel: 335.715, Right Vel: 363.9197, Vel: 349.8174
+
+X dot: 9.657507, Y dot: -349.684
+X pos: 1520.965, Y pos: 552.7092
+left effort: 3.650683, right effort: 3.60582
+
+------------Reached waypoint: 5 ------------
+V req: 348 - (4.035156, -348.1057), Omega Req: -0.08241653
+Current heading: 4.732222, Desired heading: -1.559205, t:0, t0:112.3636
+VBat: 2.696457, self.Kbat: 3.560228
+V req: 344 - (-15.91405, -343.9015), Omega Req: -0.516305
+Current heading: 4.717778, Desired heading: -1.617038, t:0.4549103, t0:112.3636
+   Ax=|Omega_L=-1721.8|   Bu=|Omega_L=867.5738|
+      |Omega_R=-1721.775|      |Omega_R=865.23|
+      |      s=5006.108|      |      s=2503.356|
+      |    Psi=4.312498|      |    Psi=-0.290835|
+
+ENCODER  - Left Vel: 388.735, Right Vel: 290.7861
+OBSERVER - Left Vel: 378.6575, Right Vel: 297.0642, Vel: 337.8609
+
+X dot: -36.77276, Y dot: -335.8537
+X pos: 1516.48, Y pos: 257.3064
+left effort: 3.869045, right effort: 2.60112
+
+V req: 291 - (-94.07951, -275.465), Omega Req: -1.2672
+Current heading: 4.51, Desired heading: -1.899905, t:0.954895, t0:112.3636
+VBat: 2.552948, self.Kbat: 3.760359
+V req: 245 - (-229.1017, -86.91113), Omega Req: -2.191563
+Current heading: 3.723333, Desired heading: -2.779008, t:1.454948, t0:112.3636
+   Ax=|Omega_L=-1886.117|   Bu=|Omega_L=954.0188|
+      |Omega_R=-1886.09|      |Omega_R=941.9957|
+      |      s=5478.463|      |      s=2739.563|
+      |    Psi=2.562901|      |    Psi=-0.5593215|
+
+ENCODER  - Left Vel: 483.6231, Right Vel: 82.64445
+OBSERVER - Left Vel: 501.4352, Right Vel: 81.1084, Vel: 291.2718
+
+X dot: -291.2172, Y dot: 5.641788
+X pos: 1384.54, Y pos: 91.0124
+left effort: 5.307488, right effort: 1.195639
+
+------------Reached waypoint: 6 ------------
+V req: 318 - (-316.4741, 35.31738), Omega Req: -2.062104
+Current heading: 3.236666, Desired heading: 3.030456, t:0, t0:114.0482
+V req: 284 - (-282.8248, 27.70632), Omega Req: -0.8161378
+Current heading: 3.125555, Desired heading: 3.043941, t:0.4702377, t0:114.0482
+VBat: 2.63855, self.Kbat: 3.638362
+   Ax=|Omega_L=-2045.295|   Bu=|Omega_L=1026.246|
+      |Omega_R=-2045.265|      |Omega_R=1028.664|
+      |      s=5939.032|      |      s=2969.875|
+      |    Psi=2.574917|      |    Psi=-0.5250832|
+
+ENCODER  - Left Vel: 244.8774, Right Vel: 327.5169
+OBSERVER - Left Vel: 247.2516, Right Vel: 332.3975, Vel: 289.8245
+
+X dot: -289.5739, Y dot: 12.05112
+X pos: 1143.304, Y pos: 121.5156
+left effort: 2.786409, right effort: 3.262738
+
+V req: 278 - (-278.5116, 10.56761), Omega Req: -0.4633213
+Current heading: 3.15, Desired heading: 3.103668, t:0.9703369, t0:114.0482
+V req: 286 - (-286.291, 5.387527), Omega Req: -0.2500105
+Current heading: 3.147778, Desired heading: 3.122777, t:1.470177, t0:114.0482
+VBat: 2.789612, self.Kbat: 3.441339
+   Ax=|Omega_L=-2211.753|   Bu=|Omega_L=1110.893|
+      |Omega_R=-2211.721|      |Omega_R=1110.362|
+      |      s=6420.57|      |      s=3210.673|
+      |    Psi=2.611703|      |    Psi=-0.5282967|
+
+ENCODER  - Left Vel: 290.7861, Right Vel: 275.4815
+OBSERVER - Left Vel: 295.9149, Right Vel: 277.8809, Vel: 286.8979
+
+X dot: -286.8975, Y dot: 0.4569671
+X pos: 901.9528, Y pos: 123.9942
+left effort: 2.932908, right effort: 3.071778
+
+------------Reached waypoint: 7 ------------
+V req: 275 - (-275.4653, 3.005981), Omega Req: 0.02903223
+Current heading: 3.127778, Desired heading: 3.130681, t:0, t0:115.8754
+V req: 296 - (-296.2548, -13.14636), Omega Req: -0.09616375
+Current heading: 3.195555, Desired heading: -3.097247, t:0.4925156, t0:115.8754
+   Ax=|Omega_L=-2378.342|   Bu=|Omega_L=1194.11|
+      |Omega_R=-2378.308|      |Omega_R=1194.04|
+      |      s=6903.334|      |      s=3452.084|
+      |    Psi=2.678022|      |    Psi=-0.5186444|
+
+ENCODER  - Left Vel: 293.847, Right Vel: 290.7861
+OBSERVER - Left Vel: 297.2394, Right Vel: 295.415, Vel: 296.3272
+
+X dot: -295.8779, Y dot: -16.31162
+X pos: 658.8834, Y pos: 119.5166
+left effort: 2.891246, right effort: 3.322862
+
+VBat: 2.875214, self.Kbat: 3.338882
+V req: 294 - (-293.6314, -19.88727), Omega Req: -0.09670734
+Current heading: 3.218889, Desired heading: -3.073967, t:1.000999, t0:115.8754
+   Ax=|Omega_L=-2548.125|   Bu=|Omega_L=1278.583|
+      |Omega_R=-2548.088|      |Omega_R=1278.505|
+      |      s=7392.832|      |      s=3696.863|
+      |    Psi=2.664547|      |    Psi=-0.5221192|
+
+ENCODER  - Left Vel: 260.177, Right Vel: 266.2988
+OBSERVER - Left Vel: 270.1477, Right Vel: 268.067, Vel: 269.1074
+
+X dot: -268.834, Y dot: -12.12559
+X pos: 413.4266, Y pos: 102.3545
+left effort: 2.821197, right effort: 3.033231
+
+V req: 252 - (-252.2322, -11.59738), Omega Req: 0.008730888
+Current heading: 3.186666, Desired heading: -3.095646, t:1.524879, t0:115.8754
+VBat: 2.663727, self.Kbat: 3.603973
+------------Reached waypoint: 8 ------------
+V req: 195 - (-195.2665, -1.528122), Omega Req: -0.394702
+Current heading: 3.188889, Desired heading: -3.133767, t:0, t0:117.6749
+V req: 293 - (-147.927, 253.1103), Omega Req: 0.5413818
+Current heading: 2.045555, Desired heading: 2.099694, t:0.4931488, t0:117.6749
+   Ax=|Omega_L=-2691.855|   Bu=|Omega_L=1353.955|
+      |Omega_R=-2691.816|      |Omega_R=1347.244|
+      |      s=7809.931|      |      s=3905.437|
+      |    Psi=1.093539|      |    Psi=-0.7531275|
+
+ENCODER  - Left Vel: 352.0112, Right Vel: 214.2634
+OBSERVER - Left Vel: 402.7991, Right Vel: 168.5913, Vel: 285.6952
+
+X dot: -77.81885, Y dot: 274.8927
+X pos: 239.5888, Y pos: 163.5458
+left effort: 2.565003, right effort: 3.303953
+
+------------Reached waypoint: 9 ------------
+V req: 303 - (-74.51947, 293.9582), Omega Req: -0.3315222
+Current heading: 1.852222, Desired heading: 1.81907, t:0, t0:118.5229
+VBat: 2.731705, self.Kbat: 3.514289
+V req: 189 - (-36.34678, 186.341), Omega Req: -0.4323375
+Current heading: 1.806666, Desired heading: 1.763433, t:0.4954376, t0:118.5229
+   Ax=|Omega_L=-2864.078|   Bu=|Omega_L=1435.955|
+      |Omega_R=-2864.037|      |Omega_R=1434.757|
+      |      s=8303.255|      |      s=4152.129|
+      |    Psi=1.026751|      |    Psi=-0.7576931|
+
+ENCODER  - Left Vel: 235.6756, Right Vel: 189.7686
+OBSERVER - Left Vel: 231.8109, Right Vel: 190.5902, Vel: 211.2006
+
+X dot: -44.78009, Y dot: 206.3987
+X pos: 176.2115, Y pos: 403.0685
+left effort: 2.332604, right effort: 1.685355
+
+------------Reached waypoint: 10 ------------
+V req: 207 - (-44.36953, 202.5184), Omega Req: -0.1130021
+Current heading: 1.797778, Desired heading: 1.786477, t:0, t0:119.0922
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+VBat: 2.714081, self.Kbat: 3.537109
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+   Ax=|Omega_L=-2913.563|   Bu=|Omega_L=1457.445|
+      |Omega_R=-2913.521|      |Omega_R=1457.151|
+      |      s=8434.429|      |      s=4217.725|
+      |    Psi=0.997267|      |    Psi=-0.7593997|
+
+ENCODER  - Left Vel: 30.60906, Right Vel: 30.60906
+OBSERVER - Left Vel: 40.09705, Right Vel: 30.53955, Vel: 35.3183
+
+X dot: -6.52689, Y dot: 34.70997
+X pos: 163.442, Y pos: 474.3974
+left effort: 0.6103138, right effort: 0.5380904
+
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+VBat: 2.547913, self.Kbat: 3.76779
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+   Ax=|Omega_L=-2931.081|   Bu=|Omega_L=1466.064|
+      |Omega_R=-2931.038|      |Omega_R=1466.08|
+      |      s=8485.092|      |      s=4243.06|
+      |    Psi=0.9948415|      |    Psi=-0.7596026|
+
+ENCODER  - Left Vel: 30.60906, Right Vel: 27.54815
+OBSERVER - Left Vel: 34.20105, Right Vel: 35.47424, Vel: 34.83765
+
+X dot: -6.361955, Y dot: 34.25182
+X pos: 158.055, Y pos: 503.1221
+left effort: 0.6090741, right effort: 0.6287312
+
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+bump: 1, 1, 1, 1, 1, 1
+VBat: 2.691422, self.Kbat: 3.566889
+   Ax=|Omega_L=-2948.647|   Bu=|Omega_L=1475.146|
+      |Omega_R=-2948.605|      |Omega_R=1474.503|
+      |      s=8535.758|      |      s=4268.395|
+      |    Psi=0.9843672|      |    Psi=-0.7611882|
+
+ENCODER  - Left Vel: 24.48725, Right Vel: 27.54815
+OBSERVER - Left Vel: 43.17322, Right Vel: 21.44348, Vel: 32.30835
+
+X dot: -5.617482, Y dot: 31.81624
+X pos: 152.7268, Y pos: 531.9554
+left effort: 0.62796, right effort: 0.6105176
+
+bump: 1, 1, 0, 1, 1, 1
+V req: 2 - (1.051682, -2.5896), Omega Req: -3.651752
+Current heading: 5.463333, Desired heading: -1.185027, t:2.976593, t0:119.0922
+   Ax=|Omega_L=-2954.981|   Bu=|Omega_L=1461.748|
+      |Omega_R=-2954.938|      |Omega_R=1504.833|
+      |      s=8561.473|      |      s=4281.256|
+      |    Psi=2.832103|      |    Psi=-1.253452|
+
+ENCODER  - Left Vel: -743.8, Right Vel: 716.252
+OBSERVER - Left Vel: -614.1321, Right Vel: 894.5892, Vel: 140.2286
+
+X dot: -82.25577, Y dot: -113.5695
+X pos: 120.3971, Y pos: 522.6133
+left effort: -12.91372, right effort: 30.24096
+
+VBat: 2.676315, self.Kbat: 3.587021
+V req: 509 - (480.6582, -169.5449), Omega Req: 5.22965
+Current heading: 5.421111, Desired heading: -0.3391092, t:3.475685, t0:119.0922
+V req: 278 - (226.625, 161.6895), Omega Req: 2.474852
+Current heading: 0.3722219, Desired heading: 0.6197072, t:3.98275, t0:119.0922
+   Ax=|Omega_L=-3252.884|   Bu=|Omega_L=1659.274|
+      |Omega_R=-3252.836|      |Omega_R=1658.709|
+      |      s=9501.607|      |      s=4751.382|
+      |    Psi=-0.4569879|      |    Psi=-0.95921|
+
+ENCODER  - Left Vel: 765.2111, Right Vel: 835.6273
+OBSERVER - Left Vel: 1289.091, Right Vel: 1270.156, Vel: 1279.623
+
+X dot: 1121.609, Y dot: 615.9779
+X pos: 732.5947, Y pos: 693.8442
+left effort: 35.23083, right effort: 35.23083
+
+VBat: 2.45224, self.Kbat: 3.914788
+V req: 30557932 - (1.005338e+07, 2.885683e+07), Omega Req: 8.066695
+Current heading: 0.4288888, Desired heading: 1.235558, t:4.476364, t0:119.0922
+   Ax=|Omega_L=-3606.563|   Bu=|Omega_L=1835.975|
+      |Omega_R=-3606.51|      |Omega_R=1833.37|
+      |      s=10520.25|      |      s=5260.763|
+      |    Psi=-0.8891539|      |    Psi=-0.9769315|
+
+ENCODER  - Left Vel: 746.876, Right Vel: 704.0084
+OBSERVER - Left Vel: 1252.737, Right Vel: 1162.49, Vel: 1207.613
+
+X dot: 1202.964, Y dot: 105.8653
+X pos: 1472.893, Y pos: 946.7537
+left effort: 34.66367, right effort: 34.66367
+
+V req: 491 - (-356.1875, -339.2891), Omega Req: -25.31599
+Current heading: 0.1511111, Desired heading: -2.380487, t:5.025154, t0:119.0922
+VBat: 2.799683, self.Kbat: 3.42896
+V req: 2038 - (-1858.656, -837.0859), Omega Req: -27.41763
+Current heading: 0.02333307, Desired heading: -2.71843, t:5.476089, t0:119.0922
+   Ax=|Omega_L=-4040.788|   Bu=|Omega_L=2051.08|
+      |Omega_R=-4040.729|      |Omega_R=2052.594|
+      |      s=11777.67|      |      s=5889.548|
+      |    Psi=-0.825035|      |    Psi=-0.9717015|
+
+ENCODER  - Left Vel: 743.8, Right Vel: 737.6783
+OBSERVER - Left Vel: 1191.521, Right Vel: 1245.568, Vel: 1218.544
+
+X dot: 1205.462, Y dot: 178.0796
+X pos: 2485.616, Y pos: 1003.48
+left effort: 34.56547, right effort: 34.56547
+
+V req: 800 - (-794.75, -95.75), Omega Req: 30.99271
+Current heading: 0.1622219, Desired heading: -3.021693, t:5.982239, t0:119.0922
+VBat: 2.817307, self.Kbat: 3.40751
+V req: 110523872 - (-1.067151e+08, -2.876467e+07), Omega Req: 31.40437
+Current heading: 0.2644444, Desired heading: -2.878304, t:6.476189, t0:119.0922
+   Ax=|Omega_L=-4442.589|   Bu=|Omega_L=2250.418|
+      |Omega_R=-4442.524|      |Omega_R=2252.036|
+      |      s=12935.9|      |      s=6468.735|
+      |    Psi=-0.8784225|      |    Psi=-1.050645|
+
+ENCODER  - Left Vel: 710.1301, Right Vel: 667.2775
+OBSERVER - Left Vel: 1122.427, Right Vel: 1180.19, Vel: 1151.309
+
+X dot: 1134.277, Y dot: 197.3021
+X pos: 3385.172, Y pos: 1194.768
+left effort: 33.18661, right effort: 33.18661
+
+V req: 2448 - (-2352.656, -678.2578), Omega Req: 31.26721
+Current heading: 0.2955556, Desired heading: -2.860909, t:6.976898, t0:119.0922
+VBat: 2.827377, self.Kbat: 3.395373
+V req: 5243 - (-5061.875, -1369.906), Omega Req: 31.3145
+Current heading: 0.2744441, Desired heading: -2.877292, t:7.475983, t0:119.0922
+   Ax=|Omega_L=-4869.224|   Bu=|Omega_L=2464.288|
+      |Omega_R=-4869.153|      |Omega_R=2464.598|
+      |      s=14171.89|      |      s=7086.804|
+      |    Psi=-0.7979726|      |    Psi=-1.06575|
+
+ENCODER  - Left Vel: 734.6321, Right Vel: 713.1911
+OBSERVER - Left Vel: 1164.032, Right Vel: 1176.149, Vel: 1170.09
+
+X dot: 1128.39, Y dot: 309.5927
+X pos: 4349.206, Y pos: 1467.255
+left effort: 32.59558, right effort: 32.59558
+
+V req: 1966 - (-1932.0, -368.0), Omega Req: 30.74259
+Current heading: 0.2555552, Desired heading: -2.953371, t:7.97699, t0:119.0922
+   Ax=|Omega_L=-5269.548|   Bu=|Omega_L=2663.737|
+      |Omega_R=-5269.471|      |Omega_R=2665.942|
+      |      s=15331.19|      |      s=7666.527|
+      |    Psi=-0.9293625|      |    Psi=-1.068251|
+
+ENCODER  - Left Vel: 731.5565, Right Vel: 731.5565
+OBSERVER - Left Vel: 1141.755, Right Vel: 1220.283, Vel: 1181.019
+
+X dot: 1169.647, Y dot: 163.5035
+X pos: 5319.757, Y pos: 1704.571
+left effort: 32.85892, right effort: 32.85892
+
+VBat: 2.746811, self.Kbat: 3.494962
+V req: 261587552 - (-2.527969e+08, -6.724403e+07), Omega Req: -30.60501
+Current heading: 0.1788888, Desired heading: -2.881613, t:8.476013, t0:119.0922
+---- Closed serial port COM12 due to disconnection from the machine ----
